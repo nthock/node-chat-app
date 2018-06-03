@@ -4,11 +4,6 @@ socket.on('connect', function () {
 
   socket.emit('');
 
-  socket.emit('createMessage', {
-    to: 'Thiam Hock',
-    text: 'Hello back'
-  });
-
 });
 
 socket.on('disconnect', function () {
